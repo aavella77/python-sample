@@ -1,0 +1,227 @@
+Testing Questions:
+
+a) Test a real world object
+	1. Who will use it and why?
+	2. What are the use cases?
+	3. What are the limits of user?
+	4. What are the stress and failure conditions?
+	5. How would I perform the testing?
+
+b) Test a piece of software
+	1. Are we doing black or white box testing?
+	2. Who will use it and why?
+	3. What are the use cases?
+	4. What are the limits of use?
+	5. What are the stress and failure conditions?
+	6. What are the test cases? How would you perform the testing?
+	
+c) Write test code for a function
+	Validating input and output
+	1. Define the test cases
+	2. Define the expected result
+	3. Write the test code
+
+d) Troubleshoot an existing issue
+	1. Understand the scenario
+	2. Break down the problem (Follow step by step to see if issue is reproducible)
+	3. Create specific, manageable tasks.  Give customers steps to troubleshoot
+
+-------------------------
+Test an e-commerce system like Amazon
+	Divide problem in sub-categories like payment, GUI, security, search, Browser compatibility
+	Mobile Device compatibility, Performance, Spelling and Grammar, Social
+	
+	PAYMENTS:
+	- Payments work reliably (most important).
+	- Amount to pay is correct
+	- Tax is calculated correctly depending on ZIP code
+	- Delivery charge is calculated correctly
+	- Different options for payment such as Visa, Master Card, Paypal, Google Wallet
+	- Products are added to the shipment queue
+	- Customers are never double charged
+	- Remove products from shopping basket works
+	- Confirmation email is sent
+	
+	GUI: 
+	- There are no broken links
+	- Product images appear in right place
+	- All required pages display correctly such as home page, featured products, special offers
+	- Product detail pages properly display further information about products
+	
+	SECURITY:
+	- Site uses SSL and https
+	- Credit cards are stored securely
+	
+	SEARCH:
+	- When user types keywords proper results are displayed
+	- Typing letters in search box, properly suggests search patterns
+	
+	BROWSER COMPATIBILITY:
+	- IE, Firefox, Chrome and Safari
+	
+	MOBILE DEVICE COMPATIBILITY
+	- Verify that system works on iPhone, iPad, Android, Blackberry, Windows phone, etc
+	
+	PERFORMANCE:
+	- How quickly web pages load
+	
+	SPELLING and GRAMMAR
+	- Assure there are no typos and gramar is correct
+	
+	SOCIAL
+	- Check Facebook, Twitter, Linkedin functionality
+
+-----------------	
+Test Google Spreadsheets:
+
+	Math
+	- Test all math functions such as addition, substraction, division, multiplication and others
+	-
+
+	Formatting
+	- Bold, italics, underline
+	
+	Edit
+	- Search and Replace
+	
+	File Save
+	- Auto Save
+	- Save in the cloud
+	
+	Ecosystem
+	- How it works with Gmail attachments
+	- Integration with plugins	
+
+-------------------------	
+Test a camera:
+
+	Divide in areas such as settings, taking pictures, videos, image management
+	
+---------------------------	
+How to test a pen:
+	1. Who will use it and why? What kind of pen is it? (fountain, ballpoint, rollerball, etc)
+		Kids and teens at school
+		
+		
+		
+	2. what are the use cases? Is intended for paper or other surfaces?
+		Users should be able to write 1,500 pages with one pen
+		Can you write smoothly on paper
+		
+	3. what are the limits of use
+		After 1,500 pages the pen should not work anymore
+		
+	4. What are the stress and failure conditions
+		The pen can open and close 10 times per minute for a day
+		
+	5. what are the testing scenarios
+
+-----------------------------
+How to test a paper clip:
+
+	1. Who will use it and why?
+		By teachers to hold papers together
+			- Hold 10, 15, 20 pieces of paper together
+			- Using paper used by students at school
+			- Hold single pieces of paper vs. paper with staples
+	2. What are the use cases?
+			- Assure paper clip does not damage the paper
+	3. What are the limits of use?
+		Hold 30 to fifty pieces of paper with minimal bending
+		It should work in the temperature range between 35 to 100 degrees Farenheit
+			- Test with the limit number of pages
+			- Test in the within the temperature limit
+	4. What are the stress / failure conditions
+		What is acceptable before product fails
+			- After 30 pages it is ok if the paper clip is bended
+			- Test at the limit of 30 pages several times.  Paper clip should show limited binding
+	5. How would you perform the testing
+		Can I do some automation
+
+---------------------------------		
+How would you test a wash machine
+	3. Stress
+		30 to 40 pieces of clothing should not cause fire
+		
+----------------------------		
+How would you test a chair?							
+	5. How would you perform the test
+		A chair should last for 5 years
+			Automated test to get to the number of sittings in five years.
+			
+------------------------------			
+Manual vs Automated testing:
+	1. There may be some things that humans are better for testing.  For example, whether
+	the content of video is adequate for kids.
+	
+Blackbox vs. white box testing:
+	1. Whitebox testing tester has access to the code, while in black box testing the tester
+	is giving a box and the fucntions from a user perspective.
+	
+---------------------------------	
+How will you test parental controls	on a web browser
+	1. Black box vs. White box
+		White box for this exetcise	
+	2. Who will use it and why
+		Parents and kids.  Parents will control what kids can watch on the Internet
+	3. What are the use cases
+		- Installing the software
+		- Updating controls
+		- removing controls
+		- Parents Internet usage
+		- For children accessing allowed and blocked content
+	4. What are the limits of use
+		- What does it mean for a web site to be blocked?
+		- Should it be the entire website or just a web page?
+		- Is the application supposed to learn what is acceptable?
+	5. What are the stress conditions and failure conditions?
+		- The software should not crash the computer
+		- The software should not ban an allowed site
+		- The software should not permit a banned site
+	6. What are the test cases? How would you perform the testing?
+		Divide the problem into categories:
+		a) Installation
+			Installation on MACs, Windows, Tablets or SmartPhones
+			RPM vs ova deployment
+		b) Updating controls
+			GUI Interface to add controls			
+		c) Removing controls
+			GUI interface to remove controls
+		d) Blocked or allowed sites		
+			Using a list of allowed sites, Can you browse them?
+			Using a list of blocked sites, Are they banned?
+----------------------------
+
+How would you test sort(int[] array), which sorts an array of integers:
+
+How long can the array be?
+is sorting ascending or descending
+
+odd and even number of entries in the array
+
+
+1. Positive test cases
+	1. 3, 2 ,1 
+	2.  -1, 0, -5, 2
+2. Negative test cases
+what happens if a float is given as input
+what happens if we go over the integer limit
+what happens if a string is giving as one of the array values					
+What happens if an empty array is given?
+What happens if there are duplicates in the input?
+What happens if there is only one input in the array?
+What happens if the array is already sorted? or sorted in reverse order?	
+	
+----------
+
+Troubleshooting
+
+Google Chrome Crash
+1. What operating system they were using
+2. Can they provide logs when the event happens
+3. What were they users doing during the crash
+4. What does task manager shows while the user is running the app
+5. What version of the browser and OS where they using
+6. How long has been this happening
+7. Any installations of other software recently
+8. Is this issue reproducible or appears to be random?

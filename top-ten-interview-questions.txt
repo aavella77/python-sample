@@ -1,0 +1,72 @@
+Top Ten Interview questions:
+
+1. Tell me about yourself.
+
+My name is Alejandro Avella.  I was born and raised in Caracas, Venezuela.  I have
+BS in Electronics Engineering and MS in Telecommunications.  I also did a computer
+networking certificate from Stanford. After my master, My wife an I decided
+to stay in the US and I have been living here for almost 20 years.  My job experience
+is primarily a test engineer with a concentration in automation.  I am married and
+I have two kids.
+
+2. Why do you want to work for our company
+
+I consider Vmware to be the leader on Software Defined Networking, specially with the
+acquisition of Nicira.  I think my long term goals of making a career on software
+quality and automation could be fulfilled at your company and it could be win win situation
+if I join your company.
+
+3. What are your strengths?
+
+- I am methodical on everything I do and I think that helps to be a better test engineer.
+- I am hard working and quick learner.  If there is a new technical challenge I find ways
+  to improve my self and overcome the situation.
+- I have a positive attitude and that helps to find solutions on what at first may seem hard to do.
+- I am self motivated and require very little direction. You give me a direction and I find the path
+
+4. What are your weakness?
+
+- Sometimes I have a hard time saying no and that has gotten me into trouble in the past.
+- I could be better at estimating tasks.
+
+5. Why should I hire you?
+
+- If you hire me, I will start contributing to your team immediately with my automation
+and virtualization knowledge. For example, I have experience with Vmware Vsphere and
+OpenStack that would be helpful.  You will be able to give code to test and I will be able
+to generate test plans for them.  I am very interested in Software Defined Networking. 
+and the cloud.   I have more than 20 years of work experience that I will be able
+to translate to the software QA role that you are trying to fill.  My career goal is
+to stay technical in a QA role and escalate the technical ladder.
+
+6. Tell me what you know about this company?
+About the company
+Background in new projects:
+Owners and partners
+Company current issues
+Competitors
+
+7. Why are you looking for a job change?
+THanks to previous org
+what I learn from that job
+share reason job change
+relate to career goal
+
+I am very happy and thankful for all my 10 years at Cisco.  I learned a lot and I was
+always given opportunity to learn exciting technologies.  However, I think the company
+is not growing fast enough and I am looking for a change on a company working on leading
+edge technology that has a better chance to succeed in the marketplace.
+
+8. What are your salary requirements?
+
+9. What are your career goals?
+Short term goal Stay in automation in senior QA role
+Long term goal: Progress in the technical career ladder as a QA engineer
+
+10. Finally, do you have any questions to ask me?
+- Thanks for the time you took to interview me.
+- I understand Nicira was working on Openstack before the acquisition.  I consider OpenStack
+a Vmware competitor, could you explain the strategy? What pluggable components is Vmware using
+- Could you describe how you see the competition with Cisco Insieme product Nexus 9000?
+- Could you describe differences between VMware's NSX and Cisco's ACI?
+ 
